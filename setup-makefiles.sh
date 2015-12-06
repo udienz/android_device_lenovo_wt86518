@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEVICE=wt86518
-VENDOR=qcom
+VENDOR=lenovo
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
