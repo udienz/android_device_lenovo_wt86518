@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/qcom/wt86518/full_wt86518.mk)
+$(call inherit-product, device/lenovo/wt86518/full_wt86518.mk)
 
 # Inherit some common MK stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
@@ -24,8 +24,6 @@ PRODUCT_MODEL := Lenovo A6000
 PRODUCT_MANUFACTURER := LENOVO
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
-
-PRODUCT_LOCALES := in_IN en_US
 
 TARGET_VENDOR_PRODUCT_NAME := Kraft-A6000
 TARGET_VENDOR_DEVICE_NAME := Kraft-A6000
