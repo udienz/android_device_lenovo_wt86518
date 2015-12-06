@@ -2,7 +2,7 @@
 
 #set -e
 export DEVICE=wt86518
-export VENDOR=qcom
+export VENDOR=lenovo
 
 if [ $# -eq 0 ]; then
   SRC=adb
