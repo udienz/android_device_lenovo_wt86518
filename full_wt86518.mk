@@ -21,7 +21,7 @@ endif
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from wt86518 device
-$(call inherit-product, device/qcom/wt86518/device.mk)
+$(call inherit-product, device/lenovo/wt86518/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := wt86518
