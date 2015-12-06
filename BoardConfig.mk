@@ -215,4 +215,4 @@ WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME := "wlan"
 
 # inherit from the proprietary version
--include vendor/qcom/wt86518/BoardConfigVendor.mk
+-include vendor/lenovo/wt86518/BoardConfigVendor.mk
