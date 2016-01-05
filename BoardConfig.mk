@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/qcom/wt86518
+LOCAL_PATH := device/lenovo/wt86518
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
