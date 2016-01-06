@@ -165,10 +165,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 TARGET_RIL_VARIANT := caf
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/lenovo/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-    device/qcom/wt86518/sepolicy
+    device/lenovo/wt86518/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     bluetooth_loader.te \
