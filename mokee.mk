@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/qcom/wt86518/full_wt86518.mk)
+$(call inherit-product, device/lenovo/wt86518/full_wt86518.mk)
 
 # Inherit some common MK stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
