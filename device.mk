@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# GPS
+PRODUCT_PACKAGES += \
+    gps.msm8916
+
 # Connectivity Engine support
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
@@ -184,7 +188,9 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
-    qcmediaplayer
+    qcmediaplayer \
+    libqcmediaplayer \
+    libextmedia_jni
 
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
