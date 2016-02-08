@@ -47,6 +47,8 @@ media.aac_51_output_enabled=true
 mm.enable.qcom_parser=3407871
 media.stagefright.use-awesome=false
 
+# set roaming indicator to always show
+ro.config.always_show_roaming=true
 ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
 persist.timed.enable=true
@@ -77,7 +79,6 @@ persist.debug.wfd.enable=1
 persist.hwc.enable_vds=1
 persist.debug.coresight.config=stm-events
 vidc.enc.narrow.searchrange=1
-audio.dolby.ds2.enabled=true
 ro.hwui.text_large_cache_height=2048
 persist.data.target=dpm1
 drm.service.enabled=1
