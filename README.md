@@ -5,6 +5,7 @@ Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Quad-core 1.2 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8916 Snapdragon 410
+CAMERA  | Sony IMX219
 GPU     | Adreno 306
 Memory  | 16GB ROM: 2GB RAM.
 Shipped Android Version | 5.0.2
