@@ -49,25 +49,39 @@ media.stagefright.use-awesome=false
 
 # set roaming indicator to always show
 ro.config.always_show_roaming=true
+
+#system props for time-services
 ro.use_data_netmgrd=true
+
 persist.data.netmgrd.qos.enable=true
 persist.timed.enable=true
 ro.opengles.version=196608
 ro.qualcomm.cabl=0
+
+# turn on CdmaLTEPhone always
 telephony.lteOnCdmaDevice=0
+
+#turn on hfp client
 bluetooth.hfp.client=1
+
+#Simulate sdcard on /data/media
 persist.fuse_sdcard=true
+
 ro.qc.sdk.audio.ssr=false
 ro.qc.sdk.audio.fluencetype=none
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=true
 tunnel.audio.encode = false
+
+#Buffer size in kbytes for compress offload playback
 audio.offload.buffer.size.kb=240
+#Minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
 av.offload.enable=true
+#enable voice path for PCM VoIP by default
 use.voice.path.for.pcm.voip=true
-
+#System property for FM transmitter
 ro.fm.transmitter=false
 audio.offload.gapless.enabled=true
 voice.playback.conc.disabled=true
@@ -95,3 +109,29 @@ persist.radio.apm_sim_not_pwdn=1
 persist.radio.restore_mode_pref=1
 persist.radio.ignore_dom_time=5
 persist.radio.multisim.config=dsds
+
+#property to enable DS2 dap
+audio.dolby.ds2.enabled=true
+
+# Stolen from ED300
+ro.config.hw_power_saving=1
+ro.config.hw_fast_dormancy=1
+ro.config.hw_quickpoweron=true
+persist.sys.use_dithering=0
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.mot.eri.losalert.delay=1000
+ro.ril.sensor.sleep.control=1
+debug.performance.tuning=1
+video.accelerate.hw=1
+wifi.supplicant_scan_interval=180
+ro.kernel.android.checkjni=0
+#debug.egl.swapinterval=-60
+#persist.cust.tel.eons=1
+#rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
+#ro.telephony.default_network=9
+#ro.telephony.default_3g2g=0
+av.offload.enable=false
+av.streaming.offload.enable=false
+ro.core_ctl_min_cpu=1
+ro.min_freq_0=200000
