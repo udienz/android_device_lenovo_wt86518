@@ -239,3 +239,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 GAPPS_VARIANT := micro
+$(call inherit-product, vendor/google/build/opengapps-packages.mk)
