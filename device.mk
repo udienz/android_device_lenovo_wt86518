@@ -15,7 +15,7 @@
 #
 $(call inherit-product-if-exists, vendor/lenovo/wt86518/wt86518-vendor.mk)
 $(call inherit-product-if-exists, device/lenovo/wt86518/local.mk)
-i
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
