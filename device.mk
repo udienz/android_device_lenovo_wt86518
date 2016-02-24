@@ -14,7 +14,8 @@
 # limitations under the License.
 #
 $(call inherit-product-if-exists, vendor/lenovo/wt86518/wt86518-vendor.mk)
-
+$(call inherit-product-if-exists, device/lenovo/wt86518/local.mk)
+i
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -237,3 +238,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+

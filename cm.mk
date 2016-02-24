@@ -13,12 +13,10 @@
 # limitations under the License.
 
 $(call inherit-product, device/lenovo/wt86518/full_wt86518.mk)
-
-# Inherit some common MK stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := wt86518
-PRODUCT_NAME := mk_wt86518
+PRODUCT_NAME := cm_wt86518
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo A6000
 PRODUCT_MANUFACTURER := LENOVO
