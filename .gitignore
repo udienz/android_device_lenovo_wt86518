@@ -26,3 +26,6 @@ proguard/
 # Log Files
 *.log
 /.project
+
+#Local config, you may include your private config at here
+local.mk
