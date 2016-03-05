@@ -34,4 +34,4 @@ GPS      | QUALCOMM-MSM8916
 ---------------------------------------------------------------------
 
 
-![lenovo a6000](http://img5a.flixcart.com/image/mobile/r/z/z/lenovo-a6000-plus-a6000-plus-400x400-imae6jeguwzcfne5.jpeg)
+![lenovo a6000](http://img6a.flixcart.com/image/mobile/r/z/z/lenovo-a6000-plus-a6000-plus-400x400-imae6jegmgumrzzs.jpeg)
