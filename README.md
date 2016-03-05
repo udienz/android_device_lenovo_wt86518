@@ -1,13 +1,14 @@
 Device configuration for Lenovo A6000 (wt86518).
 ==================================================
-
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Quad-core 1.2 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8916 Snapdragon 410
 GPU     | Adreno 306
-Memory  | 16GB ROM: 2GB RAM.
-Shipped Android Version | 5.0.2
+ROM     | 8GB / 16GB 
+RAM     | 1GB / 2GB
+Shipped Android Version | 4.4.4
+Latest Stock Update version | 5.0.2
 Storage | 16GB
 Battery | 2300 mAh
 Display | 720 x 1280 pixels, 5.0"  (~320 ppi pixel density)
@@ -30,4 +31,5 @@ WIFI     | QUALCOMM-MSM8916
 BT       | QUALCOMM-MSM8916
 FM       | QUALCOMM-MSM8916
 GPS      | QUALCOMM-MSM8916
+---------------------------------------------------------------------
 
