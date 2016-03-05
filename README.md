@@ -14,7 +14,9 @@ Display | 720 x 1280 pixels, 5.0"  (~320 ppi pixel density)
 Rear Camera  | 8 MP, 3264 x 2448 pixels, autofocus, Sony IMX219
 Front Camera | 2.0 MP
 Release Date | April 2015
-
+---------------------------------------------------------------------
+IMPORTANT HARDWARE INFORMATION
+---------------------------------------------------------------------
 |Hardware | Information |
 --------:|:-------------------------
 FLASH    | KMQ7X000SA-B315-SAMSUNG, MEM:1GB
