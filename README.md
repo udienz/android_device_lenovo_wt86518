@@ -16,11 +16,11 @@ Front Camera | 2.0 MP
 Release Date | April 2015
 
 Other Technical Data
-Hardware | Information
---------:|:-------------------------------------
-FLASH    | KMQ7X000SA-B315-SAMSUNG, MEM:1GB
-LCD      | HX8394D_HD720p_VIDEO_TIANMA
-TP       | MUTTO, FT5436,0x14
+Hardware| Information
+-------:|:-------------------------
+FLASH   | KMQ7X000SA-B315-SAMSUNG, MEM:1GB
+LCD     | HX8394D_HD720p_VIDEO_TIANMA
+TP      | MUTTO, FT5436,0x14
 CAMERA_MAIN | IMX219_Q8N13A
 CAMERA_SUB | GC2355_8916
 ACCELEROMETER | KXTJ2
