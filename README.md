@@ -15,8 +15,8 @@ Rear Camera  | 8 MP, 3264 x 2448 pixels, autofocus, Sony IMX219
 Front Camera | 2.0 MP
 Release Date | April 2015
 
-Hardware | Information
--_------:|:-------------------------
+|Hardware | Information |
+--------:|:-------------------------
 FLASH    | KMQ7X000SA-B315-SAMSUNG, MEM:1GB
 LCD      | HX8394D_HD720p_VIDEO_TIANMA
 TP       | MUTTO, FT5436,0x14
